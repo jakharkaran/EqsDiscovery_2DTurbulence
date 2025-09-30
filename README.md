@@ -5,7 +5,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2306.05014-b31b1b.svg)](https://arxiv.org/abs/2306.05014)
 [![JAMES](https://img.shields.io/badge/JAMES-10.1029%2F2023MS003874-blue.svg)](https://doi.org/10.1029/2023MS003874)
 [![py2d](https://img.shields.io/badge/py2d-Python--JAX--based%20solver-green.svg)](https://github.com/envfluids/py2d.git)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17173020.svg)](https://doi.org/10.5281/zenodo.17173020)
+[![Data](https://zenodo.org/badge/DOI/10.5281/zenodo.17173020.svg)](https://doi.org/10.5281/zenodo.17173020)
 
 **Related solver:** [py2d - Python-JAX-based solver for 2D Turbulence](https://github.com/envfluids/py2d.git)
 
