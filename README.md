@@ -1,8 +1,11 @@
 # Equation Discovery for 2D Turublence
 
-> **Discover subgrid-scale (SGS) momentum flux closures for 2D turbulence (FHIT)**
+> **Discover subgrid-scale (SGS) momentum flux closures for 2D turbulence**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2306.05014-b31b1b.svg)](https://arxiv.org/abs/2306.05014)
+[![JAMES](https://img.shields.io/badge/JAMES-10.1029%2F2023MS003874-blue.svg)](https://doi.org/10.1029/2023MS003874)
+[![py2d](https://img.shields.io/badge/py2d-Python--JAX--based%20solver-green.svg)](https://github.com/envfluids/py2d.git)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17173020.svg)](https://doi.org/10.5281/zenodo.17173020)
 
 **Related solver:** [py2d - Python-JAX-based solver for 2D Turbulence](https://github.com/envfluids/py2d.git)
 
@@ -38,7 +41,7 @@ pip install -e ./
 
 ### Software Dependencies
 
-- **MATLAB**: R2022a or higher
+- **MATLAB**: R2022a+
 - **Python**: 3.11+
 
 ### Python Packages
@@ -57,13 +60,9 @@ pip install scipy numpy scikit-learn h5py
 
 ## Data
 
-### Dataset Access
-
 The complete dataset used in this work is publicly available:
 
 **Zenodo Repository**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17173020.svg)](https://doi.org/10.5281/zenodo.17173020)
-
-### Data Structure
 
 The dataset includes:
 - **Training Data**: `train.mat` (100 snapshots)
@@ -74,8 +73,6 @@ The dataset includes:
 ## Citation
 
 If you use this code or data in your research, please cite:
-
-### Primary Publications
 
 ```bibtex
 @article{jakhar2025analytical,
